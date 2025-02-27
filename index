@@ -5,7 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   <title>Club Pink - Sua Experiência Premium</title>  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">  
-  <style>  
+  <style>
+    .model {
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+
+    .model img {
+      width: 100px;
+      margin-right: 10px;
+    }
+
+    .model-info {
+      text-align: center;
+    }
+
     /* Estilos Gerais - Tema Quente e Sofisticado */  
     :root {  
       --rosa: #ff3c6e;  
@@ -292,7 +307,7 @@
       .header {  
         padding: 10px 15px;  
       }  
-    }  
+    }
   </style>  
 </head>  
 <body>  
@@ -313,17 +328,28 @@
   🎉 PROMOÇÃO: 7 DIAS GRÁTIS + 50% OFF! USE: PINKVIP  
 </div>  <!-- Sidebar com Modelos -->  <div class="sidebar">  
   <h2>🌟 PINK GIRLS 🌟</h2>  
-  <div class="model" onclick="showModel('camila')">  
-    <img src="https://i.ibb.co/Wpsx814N/images-10.jpg" alt="Cami Sorrentinno">  
-    <div>  
-      <h3> <center> <b>Cami Sorrentinno </b> </h3>  
-      <p> <i> <center>25 anos • São Paulo </i>  
-        <b>   @camila_sorrentinno</b>  
-      </p> 
-      </center>  
-      <div class="online-status"></div>  
-    </div>  
+
+<div class="model" onclick="showModel('camila')">  
+  <img src="https://i.ibb.co/Wpsx814N/images-10.jpg" alt="Cami Sorrentinno">  
+  <div class="model-info">  
+    <h3><b>Cami Sorrentinno</b></h3>  
+    <p><i>25 anos • São Paulo</i><br>  
+      <b>@camila_sorrentinno</b>  
+    </p>  
+    <div class="online-status"></div>  
   </div>  
+</div>
+
+<div class="model" onclick="showModel('bruna')">  
+  <img src="https://i.ibb.co/jZDSjjBn/daydreamingprisoner252-0064.jpg" alt="Bruna Monet">  
+  <div class="model-info">  
+    <h3><b>Bruna Monet</b></h3>  
+    <p><i>25 anos • Boston</i><br>  
+      <b>@abrunamonet</b>  
+    </p>  
+    <div class="online-status"></div>  
+  </div>  
+</div>  
   <!-- Adicione mais modelos conforme necessário -->  
 </div>  <!-- Galeria de Conteúdo -->  <div class="content">  
   <div class="gallery-item">  
